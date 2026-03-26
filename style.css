@@ -1,0 +1,16 @@
+.container {
+    margin: 32px;
+    padding: 20px;
+}
+
+.button1 {
+    background-color: wheat;
+    border-color: cornflowerblue;
+    margin-top: 12px;
+    max-width: 65px;
+    color: darkslategray;
+}
+
+.button1::after{
+    background-color: aqua;
+}
